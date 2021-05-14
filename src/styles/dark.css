@@ -1,0 +1,54 @@
+#AnchorPane{
+    -fx-background-color: #404040;
+}
+
+.button{
+    -fx-background-color: #757575;
+    -fx-border-color: #757575;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-text-fill: white;
+}
+
+.button:hover{
+    -fx-background-color: #474747;
+}
+
+
+
+#tcol{
+    -fx-background-color: #292929;
+    -fx-text-background-color: white;
+}
+
+.label{
+    -fx-text-fill: white;
+}
+
+.text-field{
+    -fx-background-color:#292929;
+    -fx-text-fill: white;
+}
+
+
+
+.table-row-cell:focus {
+    -fx-accent:white;
+    -fx-font: 13px "Segoe UI"; 
+}
+
+.table-cell {     
+    -fx-padding: 0.5em 0.5em 0.1em 0.3em;
+    -fx-border-color: transparent;     
+    
+}
+
+.table-cell:empty{
+    -fx-background-color:#454545;
+}
+
+.table-cell:filled{
+    -fx-background-color:lightgrey;
+}
+
+
